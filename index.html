@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="js/index.js"></script>
+   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -26,7 +26,7 @@
                 <button id="tank"><img src="images/tank-pixel.png" alt="pixel picture of a tank"></button>
             </div>
             <div type="button">
-                <button id="tank"><img src="images/nuke.png" alt="pixel picture of a nuke"></button>
+                <button id="nuke"><img src="images/nuke.png" alt="pixel picture of a nuke"></button>
             </div>
         </div>
 
@@ -36,9 +36,23 @@
         </div>
 
         <div class="scoreboard">
-            <div class="label">0</div>
-            <div class="label">0</div>
+            <div class="score" id="left">0</div>
+            <div class="score" id="right">0</div>
         </div>
+
+        <center><div class="instuctions">
+            <h1 class="instruction-title">Instructions</h1>
+        <p class="break">------------------------------</p>
+        <br><br><br>
+        <p class="comparison">
+            Tank beats Jet
+            <br><br><br>    
+            Nuke beats Tank
+            <br><br><br>
+            Jet beats Nuke
+        </p>
+        </div></center>
     </div>
+    <script src="js/index.js"></script>
 </body>
 </html>

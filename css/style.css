@@ -11,6 +11,9 @@ body{
 
 .container{
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
 }
 
 .headings{
@@ -65,10 +68,21 @@ body{
 
 .scoreboard{
     display: flex;
+    width: auto;
+    height: 55px;
     justify-content: center;
+    text-align: center;
 }
 
-.scoreboard .label div{
-    margin: auto;
-    font-size: 200px;
+.scoreboard  #left{
+    margin-right: 255px;
+}
+
+.scoreboard .score{
+    font-size: 50px;
+}
+
+.instuctions{
+    padding-top: 115px;
+    padding-bottom: 35px;
 }
